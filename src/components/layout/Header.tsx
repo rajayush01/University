@@ -9,11 +9,11 @@ interface NavLink {
 
 const navLinks: NavLink[] = [
   { label: 'About', href: '/about' },
-  { label: 'Academics', href: '#academics' },
-  { label: 'Admissions', href: '#admissions' },
-  { label: 'Campus Life', href: '#campus-life' },
-  { label: 'Events', href: '#events' },
-  { label: 'Contact', href: '#contact' },
+  { label: 'Academics', href: '/academics' },
+  { label: 'Admissions', href: '/admission' },
+  // { label: 'Campus Life', href: '#campus-life' },
+  // { label: 'Events', href: '#events' },
+  // { label: 'Contact', href: '#contact' },
 ];
 
 export default function Header() {
